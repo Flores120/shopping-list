@@ -1,10 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <title>Shopping form</title>
   </head>
   <body>
-    <h1>hello</h1>
+    <div class="container">
+      <h1>Enter your groceries price here!!</h1>
+      <form class="form-group" action="show-list.php">
+        <div class="form-group">
+          <label for="eggs">Eggs</label>
+          <input id="eggs" type="number" name="eggs" placeholder="1.99" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="milk">Milk</label>
+          <input id="milk" type="number" name="milk" placeholder="1.99" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="cheese">Cheese</label>
+          <input id="cheese" type="number" name="cheese" placeholder="1.99" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="ham">Ham</label>
+          <input id="ham" type="number" name="ham" placeholder="1.99" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="bread">Bread</label>
+          <input id="bread" type="number" name="bread" placeholder="1.99" class="form-control">
+        </div>
+        <button type="submit" class="btn-primary" name="button">Submit</button>
+      </form>
+    </div>
   </body>
 </html>
